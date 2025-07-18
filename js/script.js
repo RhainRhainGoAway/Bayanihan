@@ -168,7 +168,6 @@ function createPostCard(imageSrc, title, desc, location, date) {
         <p>${escapeHtml(desc)}</p>
         <div class="post-meta">Location: ${escapeHtml(location)} | Date: ${escapeHtml(date)}</div>
         <div class="post-actions">
-            <button class="verify">Verify</button>
             <button class="retruth">Retruth</button>
             <button class="untruth">Untruth</button>
         </div>
@@ -190,7 +189,6 @@ function createPostCard(imageSrc, title, desc, location, date) {
 function setupPostCardEventListeners(postCard) {
     //event listener(pag clinick) gagawin niya tong mga to
     const actions = postCard.querySelector('.post-actions');
-    actions.querySelector('.verify').addEventListener('click', () => alert('You clicked Verify'));
     actions.querySelector('.retruth').addEventListener('click', () => alert('You clicked Retruth'));
     actions.querySelector('.untruth').addEventListener('click', () => alert('You clicked Untruth'));
     

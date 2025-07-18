@@ -368,10 +368,7 @@ header h1 {
     cursor: pointer;
 }
 
-.post-action-btn[data-action="verify"] {
-    background-color: #28a745;
-    color: white;
-}
+
 
 .post-action-btn[data-action="retruth"] {
     background-color: #007bff;
@@ -497,15 +494,6 @@ header h1 {
     transition: all 0.2s ease;
 }
 
-.post-card .post-actions button.verify {
-    background: linear-gradient(135deg, var(--success), #059669);
-    color: white;
-}
-
-.post-card .post-actions button.verify:hover {
-    transform: translateY(-1px);
-    box-shadow: var(--shadow);
-}
 
 .post-card .post-actions button.retruth {
     background: linear-gradient(135deg, var(--primary-color), var(--primary-dark));
